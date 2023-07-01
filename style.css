@@ -1,15 +1,32 @@
-*{
+* {
 margin: 0;
 padding: 0;
 }
 
 body {
   background-color: rgb(218, 218, 227);
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .topo {
   background-color: rgb(195, 148, 119);
+  height: 30px;
+}
+
+.menu-topo {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+}
+
+.menu-topo ul {
+  display: inline;
+  float: left;
+}
+
+.menu-topo li {
+  display: inline-block;
+  color: rgb(215, 213, 216);
 }
 
 .normal {
