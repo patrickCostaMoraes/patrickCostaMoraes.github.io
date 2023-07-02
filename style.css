@@ -15,6 +15,7 @@ body {
 
 .menu-topo {
   width: 90%;
+  min-width: 1000px;
   margin: auto;
   padding: 8px;
 }
@@ -28,18 +29,14 @@ body {
   display: inline-block;
 }
 
+.menu-topo a:hover {
+  font-size: 20px;
+}
+
 .menu-topo a {
   text-decoration: none;
   color: rgb(215, 213, 216);
   font-size: 18px;
-}
-
-.normal {
-  font-size: 14px;
-}
-
-.destaque {
-  font-size: 16px;
 }
 
 .meuNome {
@@ -51,3 +48,36 @@ body {
   margin-left: 20px;
   border-radius: 100px;
 }
+
+.corpoDeMensagem {
+  margin-left: 30px;
+}
+
+.habilidades {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.habilidades div {
+  display: inline-flex;
+}
+
+.habilidades ul {
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.botao {
+  background-color: rgb(195, 148, 119);
+  width: 80px;
+  border-radius: 500px;
+  padding-block: 12px;
+  padding-inline: 24px;
+}
+
+.botao a {
+  text-decoration: none;
+  color: rgb(215, 213, 216);
+  font-size: 18px;
+}
+
