@@ -1,16 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(218, 218, 227);
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .topo {
   background-color: rgb(195, 148, 119);
+  height: 40px;
+}
+
+.menu-topo {
+  width: 90%;
+  margin: auto;
+  padding: 8px;
+}
+
+.menu-topo ul {
+  display: inline;
+  float: left;
+}
+
+.menu-topo li {
+  display: inline-block;
+}
+
+.menu-topo a {
+  text-decoration: none;
+  color: rgb(215, 213, 216);
+  font-size: 18px;
 }
 
 .normal {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .destaque {
-    font-size: 16px;
+  font-size: 16px;
 }
+
+.meuNome {
+  padding: 20px 20px 20px 20px;
+}
+
+.foto {
+  width: 200px;
+  margin-left: 20px;
+  border-radius: 100px;
+}
+
