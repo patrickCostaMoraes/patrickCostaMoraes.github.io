@@ -43,17 +43,12 @@ body {
 }
 
 .meuNome {
-  padding: 20px 20px 40px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .foto {
   width: 200px;
+  margin-left: 20px;
+  border-radius: 10%;
 }
 
-.corpo1 {
-  display: inline;
-}
-
-.corpo2 {
-  display: inline;
-}
